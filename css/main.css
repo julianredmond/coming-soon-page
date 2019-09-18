@@ -1,3 +1,8 @@
-h1 {
+html {
   font-family: 'Khula', sans-serif;
+}
+
+.color {
+  background-color: #7BE0B5;
+
 }
