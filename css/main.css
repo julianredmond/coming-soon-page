@@ -1,8 +1,41 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   font-family: 'Khula', sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
 }
 
-.color {
-  background-color: #7BE0B5;
+.julian {
+  font-weight: 700;
+}
 
+.redmond {
+  font-weight: 400;
+  color: #D11B07;
+}
+
+.image {
+  max-width: 15em;
+  border-radius: 5px;
+ }
+
+p {
+  font-weight: 300;
+}
+
+.link {
+  background-color: rgba(0, 180, 91, 0.3);
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  background-color: rgba(0, 180, 91, 0.4);
 }
